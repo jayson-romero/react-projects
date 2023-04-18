@@ -1,11 +1,18 @@
 
+import Review from './Riview';
 function App() {
 
 
   return (
-    <div className="App">
-        <h1 className="text-3xl font-bold underline">test</h1>
-    </div>
+    <main>
+        <section className='container'>
+        <div className='title'>
+          <h2>our reviews</h2>
+          <div className='underline'></div>
+        </div>
+        <Review />
+      </section>
+    </main>
   )
 }
 
